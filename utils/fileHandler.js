@@ -3,6 +3,8 @@ const path = require("path");
 
 const ST_FILE = path.join(__dirname, "../data/students.json");
 const TE_FILE = path.join(__dirname, "../data/teachers.json");
+const Cl_FILE = path.join(__dirname,"../data/classes.json");
+const SL_FILE = path.join(__dirname,"../data/subject.json");
 // console.log(ST_FILE);
 // console.log(TE_FILE);
 
@@ -39,4 +41,5 @@ async function writeData(file,data){
 module.exports = {
   readData,
   writeData
+  
 };
