@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "d88d7a5d-aa21-4fd9-90b5-74d6595ce9a1",
+    "name": "Ebow",
+    "age": 106,
+    "gender": "male",
+    "className": 10
+  }
+]

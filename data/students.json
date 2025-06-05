@@ -7,8 +7,9 @@
   },
   {
     "id": "e73d3824-eb18-4d11-9ee3-b07a56d4592b",
-    "age": 206,
+    "name": "joseph",
+    "age": "23",
     "gender": "male",
-    "className": 12
+    "className": "1"
   }
 ]

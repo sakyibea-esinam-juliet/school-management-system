@@ -12,7 +12,7 @@ const getFileName = (file) => {
 
 console.log(getFileName("students.json"));
 
-// read student data
+// read data
 async function readData(file) {
   const filePath = getFileName(file);
   try {
@@ -25,6 +25,7 @@ async function readData(file) {
   }
 }
 
+// write data
 async function writeData(file,data){
     const filePath = getFileName(file);
     try {
